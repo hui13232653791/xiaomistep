@@ -52,7 +52,7 @@ public class StepController {
         } else {
             Object o = huamiShuaBuService.mainHandler(u, p, s).join();
         }
-        return Result.success();
+        return Result.success(s+"步");
 
     }
 }
